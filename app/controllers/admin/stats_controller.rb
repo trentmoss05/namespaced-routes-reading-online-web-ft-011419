@@ -1,4 +1,4 @@
-class StatsController < ApplicationController
+class Admin::StatsController < ApplicaitonController
 
   def index
     @post_count = Post.count
